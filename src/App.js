@@ -42,13 +42,15 @@ function TextInputWithFocusButton() {
 
 function App() {
   return (
-    <Container>
-      <div><Button>Styled-Button</Button> </div>
-      <div><FixedButton>Fixed-Button</FixedButton></div>
-      <div><CustomButton color='seashell' background='salmon'>Custom-Button1</CustomButton></div>
-      <div><CustomButton color='seashell'>Custom-Button2</CustomButton></div>
-    </Container>
-    <TextInputWithFocusButton></TextInputWithFocusButton>
+    <div>
+      <Container>
+        <div><Button>Styled-Button</Button> </div>
+        <div><FixedButton>Fixed-Button</FixedButton></div>
+        <div><CustomButton color='seashell' background='salmon'>Custom-Button1</CustomButton></div>
+        <div><CustomButton color='seashell'>Custom-Button2</CustomButton></div>
+      </Container>
+      <TextInputWithFocusButton></TextInputWithFocusButton>
+    </div>
   );
 }
 
